@@ -1,0 +1,41 @@
+{
+   materials: [
+      {
+         name: "Child_chair",
+         parameters: [
+            {
+               baseColor: null,
+            },
+            {
+               baseColorTint: [
+                  0.34000000000000002,
+                  0.68999999999999995,
+                  0.89000000000000001,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 0,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "Orientation",
+      ],
+      collision: {},
+      file: "sampledata/childChair/childChair.obj",
+      name: "childChair",
+      scale: 0.005186000000000001,
+   },
+   version: "0.51:1",
+}
